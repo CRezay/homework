@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 1583px;
+    height: 3602px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* 1583 */
+/* 3602 */
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+header {
+    width: 100%;
+    height: 473px;
+    background: #ffffff;
+
+}
+
+/* *********************导航********************* */
+header nav {
+    height: 77px;
+    width: 1439px;
+    background: #ffffff;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+
+/* *********************导航左********************* */
+
+.top_l {
+    width: 498px;
+    height: 100%;
+    float: left;
+    margin-right: 60px;
+
+}
+
+.top_l a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* margin-right: 60px; */
+}
+
+.top_l a h1 {
+    width: 300px;
+    height: 36px;
+    text-indent: -99999px;
+    background: url(../image/logo.png)no-repeat center center;
+    /* margin-top: 21px; */
+    float: right;
+    /* padding-right: 60px; */
+    margin-right: 60px;
+    line-height: 36px;
+    padding-top: 40px;
+}
+
+
+/* *****************************导航中***************************** */
+.top_c {
+    height: 100%;
+    width: 618px;
+    float: left;
+}
+
+.top_c ul {
+    width: 100%;
+    height: 100%;
+}
+
+
+.top_c ul .nav_1 {
+    width: 88px;
+    height: 100%;
+    float: left;
+
+}
+
+.top_c ul .nav_1 a {
+    width: 88px;
+    height: 100%;
+    display: block;
+    background: url(../image/nav.png);
+    float: left;
+}
+
+.top_c ul .nav_1 a:hover {
+    background: url(../image/nav.png) 0 -91px;
+
+}
+
+.top_c ul .nav_2 {
+    width: 103px;
+    height: 100%;
+    float: left;
+}
+
+.top_c ul .nav_2 a {
+    width: 103px;
+    height: 100%;
+    float: left;
+    background: url(../image/nav.png) -110px 0;
+}
+
+
+.top_c ul .nav_2 a:hover {
+    background: url(../image/nav.png) -110px -91px;
+
+}
+
+.top_c ul .nav_3 {
+    width: 124px;
+    height: 100%;
+    float: left;
+}
+
+.top_c ul .nav_3 a {
+    width: 124px;
+    height: 100%;
+    float: left;
+    background: url(../image/nav.png) -234px 0;
+}
+
+
+.top_c ul .nav_3 a:hover {
+    background: url(../image/nav.png) -234px -91px;
+
+}
+
+.top_c ul .nav_4 {
+    width: 100px;
+    height: 100%;
+    float: left;
+}
+
+.top_c ul .nav_4 a {
+    width: 100px;
+    height: 100%;
+    float: left;
+    background: url(../image/nav.png) -378px 0;
+}
+
+
+.top_c ul .nav_4 a:hover {
+    background: url(../image/nav.png) -378px -91px;
+
+}
+
+.top_c ul .nav_5 {
+    width: 100px;
+    height: 100%;
+    float: left;
+}
+
+.top_c ul .nav_5 a {
+    width: 100px;
+    height: 100%;
+    float: left;
+    background: url(../image/nav.png) -500px 0;
+}
+
+
+.top_c ul .nav_5 a:hover {
+    background: url(../image/nav.png) -500px -91px;
+
+}
+
+.top_c ul .nav_6 {
+    width: 102px;
+    height: 100%;
+    float: left;
+}
+
+.top_c ul .nav_6 a {
+    width: 102px;
+    height: 100%;
+    float: left;
+    background: url(../image/nav.png) -624px 0;
+}
+
+
+.top_c ul .nav_6 a:hover {
+    background: url(../image/nav.png) -624px -91px;
+
+}
+
+
+
+/* ********************************导航右******************************** */
+.top_r {
+    width: 262px;
+    height: 100%;
+    float: right;
+    padding-right: 142px;
+    box-sizing: border-box;
+}
+
+.top_r a:nth-child(1) {
+    display: block;
+    height: 30px;
+    width: 19px;
+    background: url(../image/search.png) no-repeat;
+    margin-top: 26px;
+    border-right: 1px solid #999999;
+    padding-left: 20px;
+    float: left;
+}
+
+.top_r a:nth-child(1):hover {
+    /* display: block;
+    height: 30px;
+    width: 40px; */
+    background: url(../image/search_hover.png) no-repeat;
+    /* margin-top: 26px;
+    border-right: 1px solid #999999;
+    padding-left: 20px;
+    float: left; */
+}
+
+.top_r a:nth-child(2) {
+    display: block;
+    height: 100%;
+    width: 60px;
+    /* background: url(../image/search.png) no-repeat; */
+    margin-top: 16px;
+    float: right;
+    padding-left: 20px;
+}
+
+.top_r a img {
+    width: 32ox;
+    height: 32px;
+    display: block;
+    /* float: left; */
+}
+
+.top_r a span {
+    font-size: 11px;
+    color: #a196a8;
+    display: block;
+    /* float: left; */
+    padding-left: 5px;
+}
+
+
+/* ************************bannan图************************ */
+header .bannan {
+    height: 396px;
+    width: 1439px;
+    margin: 0 auto;
+}
+
+header .bannan .bannan_t {
+    width: 1439px;
+    height: 359px;
+    background: url(../image/bannan.png);
+}
+
+
+/* ****************************中间内容**************************** */
+
+.center {
+    height: 2094px;
+    width: 100%;
+}
+
+
+.center_c {
+    height: 1065px;
+    width: 100%;
+}
+
+/* ****************************中间左边内容**************************** */
+.center .center_l {
+    width: 778px;
+    height: 100%;
+    background: pink;
+}
+
+/* ****************************中间右边内容**************************** */
+.center .center_r {
+    width: 268px;
+    height: 100%;
+    background: chartreuse;
+}
+
+/* **********************底部内容********************** */
+footer {
+    height: 496px;
+    width: 100%;
+    background: #58bc58;
+}
+
+/* ********************底部上边******************** */
+
+.ft_top {
+    height: 387px;
+    width: 100%;
+    background: coral;
+}
+
+/* ******************底部下边****************** */
+.ft_fot {
+    height: 108px;
+    width: 100%;
+    background: darkgray;
+}
