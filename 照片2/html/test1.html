@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            width: 400px;
+            height: 400px;
+            margin: 100px auto;
+            border: 1px solid red;
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        p {
+            width: 100px;
+            height: 100px;
+            background: red;
+            line-height: 100px;
+            text-align: center;
+            color: #fff;
+            position: absolute;
+        }
+
+
+        .p1 {
+            left: 10px;
+            top: 10px;
+            /* position:absolute */
+        }
+
+        .p2 {
+            right: 10px;
+            top: 10px;
+            /* position:absolute */
+        }
+
+        .p3 {
+            left: 10px;
+            bottom: 10px;
+            /* position:absolute */
+        }
+
+        .p4 {
+            right: 10px;
+            bottom: 10px;
+            /* position:absolute */
+        }
+
+        /* .p5 {
+            top: 50%;
+            left: 50%;
+            margin-top: -50px;
+            margin-left: -50px;
+        } */
+
+        .p5 {
+            width: 100px;
+            height: 100px;
+            background: red;
+            line-height: 100px;
+            text-align: center;
+            color: #fff;
+            /* position: fixed; */
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <p class="p1">链接</p>
+        <p class="p2">链接</p>
+        <p class="p5">中心</p>
+        <p class="p3">链接</p>
+        <p class="p4">链接</p>
+    </div>
+</body>
+
+</html>
